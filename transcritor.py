@@ -1,16 +1,16 @@
 # Aluno: Felipe Eduardo da Silva Menezes
 # Matrícula: 20252158060005
-# Tópicos Avançados Unidade 07 - TSI IFRN 2026.1
+# TSI IFRN -  Tópicos Avançados 2026.1
 
 import whisper
 from langchain_ollama.llms import OllamaLLM
 
 print("1. Carregando o modelo Whisper (large)...")
 
-whisper = whisper.load_model("large") 
+whisper_modelo = whisper.load_model("large") 
 
 print("Transcrevendo o arquivo de áudio... (hino.mp3)")
-resultado = whisper.transcribe("hino.mp3")
+resultado = whisper_modelo.transcribe("hino.mp3")
 
 print("--- Texto Transcrito ---")
 print(resultado["text"])
