@@ -1,4 +1,7 @@
 # Transcrição de Áudio com Whisper e Extração de Pontos-Chave com Ollama
+Aluno: Felipe Eduardo da Silva Menezes
+Matrícula: 20252158060005
+Tópicos Avançados Unidade 07 - TSI IFRN 2026.1
 
 ## Descrição do Projeto
 
@@ -15,7 +18,7 @@ O fluxo de funcionamento do script é simples e direto:
 
 ## Pré-requisitos e Instalação
 
-Para que o script funcione corretamente, você precisará de dependências tanto do sistema operacional quanto do Python.
+Para que o script funcione corretamente, é preciso de dependências tanto do sistema operacional quanto do Python.
 
 ### 1. Requisitos do Sistema
 

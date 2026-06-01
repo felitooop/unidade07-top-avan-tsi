@@ -1,3 +1,7 @@
+# Aluno: Felipe Eduardo da Silva Menezes
+# Matrícula: 20252158060005
+# Tópicos Avançados Unidade 07 - TSI IFRN 2026.1
+
 import whisper
 from langchain_ollama.llms import OllamaLLM
 
